@@ -64,6 +64,13 @@
             margin-top: 2rem;
             background: #d2b48c; /* Tan color for contrast */
             color: #000;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        thead tr {
+            background: rgba(0,0,0,0.15);
         }
 
         th, td {
@@ -75,7 +82,6 @@
 
         th {
             font-weight: 700;
-            background: rgba(0,0,0,0.1);
         }
 
         .app-icon {
@@ -84,6 +90,8 @@
             background: #888; /* placeholder background */
             display: inline-block;
             margin-right: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.25);
         }
 
         .app-title {
@@ -102,10 +110,17 @@
             border-radius: 4px;
             font-size: 0.9rem;
             font-weight: 600;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.25);
         }
 
         .download-btn:hover {
             background: #555;
+        }
+
+        .pending {
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: #333;
         }
 
         footer {
@@ -155,7 +170,7 @@
     <main>
         <h1>Our Apps</h1>
         <p>
-            At New School Army, we’re Soldier-Activists dedicated to empowering the force. We build apps that cut through administrative red tape, help leaders lead more effectively, and improve overall Soldier quality of life. From specialized NCO tools to junior enlisted guides, our solutions streamline daily tasks, enhance readiness, and ensure you spend more time focusing on the mission and your Soldiers.
+            At New School Army, we’re Soldier-Activists dedicated to empowering the force. We build apps that cut through administrative red tape, help leaders lead more effectively, and improve overall Soldier quality of life. From specialized NCO tools to forms and documents managers, our solutions streamline daily tasks, enhance readiness, and ensure you spend more time focusing on your mission and your Soldiers.
         </p>
         <p>
             Below is a selection of our current apps. Each one is designed with real-world feedback, continuously refined over time, and built on a foundation of trust, utility, and respect for your time and duties. Whether you’re a seasoned NCO or newly enlisted, our apps aim to give you the edge, freeing you to focus on what matters most.
@@ -179,19 +194,20 @@
                         Born in the field, battle-tested, and continuously refined. NCO Tools & Guide streamlines your daily leadership tasks with features like Blue Force Taskr, PCC/PCI inspections, SPOT Reports, Alpha Rosters, AAR tools, custom flashcards, range finder training, and a Julian Date converter. Offline capable and zero fluff – it’s your digital battle buddy for sustaining the standard and leading effectively.
                     </td>
                     <td>
-                        <a class="download-btn" href="#" target="_blank">App Store</a>
+                        <a class="download-btn" href="#" target="_blank">for iOS</a>
+                        <!-- <a class="download-btn" href="#" target="_blank">for Android</a> -->
                     </td>
                 </tr>
                 <tr>
                     <td>
                         <div class="app-icon"></div>
-                        <div class="app-title">E4 Mafia</div>
+                        <div class="app-title">Soldier Forms & Documents</div>
                     </td>
                     <td>
-                        The ultimate junior enlisted survival guide. E4 Mafia serves up barracks lore, a CYA tool, day room tournament manager, DFAC meal roulette, and resources to navigate everyday challenges. It’s real talk from Soldiers who’ve walked in your boots, designed to help you thrive and sham like a pro in the Army’s ranks.
+                        This Forms and Document Kit is for all Soldiers: Active, Guard, and Reserve. Create, sign, and email DA Forms directly within the app. Scan, save, and email your documents using your device’s camera. Build a digital "I Love Me" book to store personal achievements. Includes multiple commonly used DA forms (like DA31, DA638, DA705, and more), in-app emailing for quick sharing, scanning tools for immediate record updates, and offline privacy that keeps your data secure on your device. It’s your portable S1, wherever you go.
                     </td>
                     <td>
-                        <a class="download-btn" href="#" target="_blank">App Store</a>
+                        <span class="pending">Pending Publish</span>
                     </td>
                 </tr>
                 <tr>
@@ -203,7 +219,8 @@
                         A technical training and reference tool covering 31 weapon systems. With range estimation training, flashcards, and detailed specs, Weaponcraft ensures you’re ready to roll on the range or in the field. Offline capable and easy-to-use, it’s built to enhance your warfighting proficiency.
                     </td>
                     <td>
-                        <a class="download-btn" href="#" target="_blank">App Store</a>
+                        <a class="download-btn" href="#" target="_blank">for iOS</a>
+                        <!-- <a class="download-btn" href="#" target="_blank">for Android</a> -->
                     </td>
                 </tr>
             </tbody>
